@@ -1,0 +1,21 @@
+.conteudo-rodape{
+    background-color: #333333;
+    padding: 5% 10% 5% 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.dados{
+    font-family: 'Ropa Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70%;
+    line-height: 2.5;
+    color: #FFFFFF;
+}
+
+.redes-sociais{
+    width: 65%;
+    display: flex;
+    justify-content:space-between;
+}

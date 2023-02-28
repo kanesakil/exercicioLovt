@@ -1,0 +1,182 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+    padding:0%;
+    margin:0%;
+}
+
+main{
+    font-family: 'Ropa Sans';
+}
+
+
+
+#banner-rotativo{
+    width: 100%;
+    margin-top: 3%;
+    margin-bottom: 35px;
+    display: flex;
+    justify-content: center;
+}
+
+.destaque{
+    width: 90%;
+}
+
+
+.grade-produtos{
+
+    width: 90%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+.produto{
+    width: 45%;
+    height: 47%;
+    background: #EEEEEE;
+}
+
+.produto img{
+    width: 100%;
+}
+
+.produto-valor{
+    display: flex;
+    padding: .5rem .7rem .0rem .7rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.produto-descricao{
+    font-family: 'Ropa Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 11px;
+    text-align: justify;
+    color: #555555;
+    padding: .7rem;
+;
+}
+
+.valor{
+    font-family: 'Ropa Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    color: #888888;
+
+}
+
+.sticker1{
+    width: 56px;
+    height: 21px;
+    background: #51D275;
+    border-radius: 10.5px;
+    font-family: 'Ropa Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+.sticker2{
+    width: 56px;
+    height: 21px;
+    background: #DC9730;
+    border-radius: 10.5px;
+    font-family: 'Ropa Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }   
+
+.menu-categoria{
+    width: 100%;
+    margin: 9% 0% 9% 0%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.img1{
+    width: 100%;
+   opacity: 50%;
+}
+
+.menu-name{
+    font-family: 'Ropa Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 27px;
+    text-align: center;
+    margin-bottom: 17px;
+    color: #888888;
+
+}
+
+.container1{
+    position: relative;
+    background-color: #7e807f;
+}
+
+.container2{
+    position: relative;
+    background-color: #7e807f;
+}
+
+.container3{
+    position: relative;
+    background-color: #7e807f;
+}
+
+.op1{
+    z-index:2;
+    padding: 2rem 42.5% 2rem 42.5%;
+    position: absolute;
+    font-family: 'Ropa Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+}
+
+.op2{
+    z-index:2;
+    padding: 2rem 43.5% 2rem 43.5%;
+    position: absolute;
+    font-family: 'Ropa Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+}
+
+.op3{
+    z-index:2;
+    padding: 2rem 44% 2rem 44%;
+    position: absolute;
+    font-family: 'Ropa Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+}
+
